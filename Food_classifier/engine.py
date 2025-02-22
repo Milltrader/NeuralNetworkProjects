@@ -1,5 +1,6 @@
 import torch
-import time
+import shutil
+import os
 
 
 def train_step(model,
@@ -82,3 +83,33 @@ def test_step(model,
   test_loss = test_loss / len(dataloader)
   test_acc = test_acc / len(dataloader)
   return test_loss, test_acc
+
+
+
+def clear_logs(log_dir="logs/fruit_and_vegetable_recognition"):
+    """
+    Deletes all logs in the specified directory.
+    
+    Args:
+        log_dir (str): Path to the log directory.
+    """
+    if os.path.exists(log_dir):
+        shutil.rmtree(log_dir)
+        print(f"[INFO] Cleared logs in: {log_dir}")
+    else:
+        print(f"[INFO] No logs found in: {log_dir}")
+
+
+def save_model(model, target_dir="models", model_name="model.pth"):
+    """
+    Saves a PyTorch model to a specified directory.
+    
+    Args:
+        model (torch.nn.Module): Trained PyTorch model.
+        target_dir (str): Directory where the model should be saved.
+        model_name (str): Name of the saved model file.
+    """
+    os.makedirs(target_dir, exist_ok=True)  # Create directory if it doesn't exist
+    model_path = os.path.join(target_dir, model_name)
+    torch.save(model.state_dict(), model_path)
+    print(f"[INFO] Model saved to: {model_path}")
