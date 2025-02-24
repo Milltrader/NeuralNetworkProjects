@@ -1,6 +1,7 @@
 import torch
 import shutil
 import os
+import time
 
 
 def train_step(model,
@@ -113,3 +114,16 @@ def save_model(model, target_dir="models", model_name="model.pth"):
     model_path = os.path.join(target_dir, model_name)
     torch.save(model.state_dict(), model_path)
     print(f"[INFO] Model saved to: {model_path}")
+
+def load_model(model, model_path):
+    """
+    Loads a PyTorch model from a specified path.
+    
+    Args:
+        model (torch.nn.Module): PyTorch model to load the weights into.
+        model_path (str): Path to the saved model file.
+    """
+    model.load_state_dict(torch.load(model_path))
+    print(f"[INFO] Model loaded from: {model_path}")
+    return model
+
