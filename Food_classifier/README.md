@@ -65,20 +65,14 @@ This repository is a **study project** focusing on **image classification** of f
   - Use the **Gradio app** (`app.py`) to upload an image and see top class predictions.  
   - Or call `predict()` directly from `model.py` in your own scripts.
 
-## Contributing
 
-Contributions to improve data handling, augmentations, or deployment are welcome. Please **fork** this repo and submit a **pull request** for any changes or bug fixes.
-
-## License
-
-This project is licensed under the **MIT License**. See the `LICENSE` file for more details.
 
 ## Disclaimer
 
 - This project was developed **for educational purposes**.  
 - The dataset may contain **duplicate or mislabeled classes** (e.g., “Capsicum” vs. “Bell Pepper”).  
-- **Not intended for production** usage; accuracy and robustness are limited by the dataset and scope of the study.
+- **Not intended for production** usage; accuracy and robustness are limited by the dataset and scope of the study. The training and validation datasets contained a lot of junk images.
 
 ## Contact
 
-For questions or suggestions, please reach out to **[Your Name / Email]** (replace with your actual info).
+For questions or suggestions, please reach out to **Artemii Pazhitnov / artpazhitnov@gmail.com** (replace with your actual info).
