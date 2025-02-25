@@ -51,7 +51,7 @@ This repository is a **study project** focusing on **image classification** of f
 - **Architecture**: [EfficientNet-B1](https://pytorch.org/vision/main/models/efficientnet.html) (pre-trained on ImageNet).  
 - **Training**: 
   - Fine-tuned for up to 10 epochs (but found that **6 epochs** was sufficient to prevent overfitting).  
-  - Achieves **~90% accuracy** on the test set (depending on exact hyperparameters).  
+  - Achieves **~96% accuracy** on the test set (depending on exact hyperparameters).  
 - **Known Data Quirks**:  
   - **Bell Pepper** vs. **Capsicum** and **Corn** vs. **Sweetcorn** might cause confusion (they’re essentially the same item).  
   - **Potatoes** class has limited training samples, so performance may be weaker.  
