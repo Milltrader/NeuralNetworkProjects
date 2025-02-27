@@ -18,9 +18,9 @@ def predict_gradio(image):
 
 # Create a few example images or load from a local folder
 example_images = [
-    ["test_images/apple.jpg"],
-    ["test_images/tomato.jpg"],
-    ["test_images/capsicum.jpg"]
+    ["Food_classifier/demo/fruits_vegs_mini/examples/Image_1.jpg"],
+    ["Food_classifier/demo/fruits_vegs_mini/examples/Image_6.jpg"],
+    ["Food_classifier/demo/fruits_vegs_mini/examples/Image_10.jpg"]
 ]
 
 demo = gr.Interface(
