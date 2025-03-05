@@ -2,7 +2,7 @@
 
 This document briefly explains the key components and overall process of YOLOv8 object detection. It is intended for readers with limited prior knowledge of the model.
 
-![YOLOv8 Diagram](PPE_Detection\Resources\yolo_diagram.png)
+![YOLOv8 Diagram](yolo_diagram.png)
 
 ---
 
