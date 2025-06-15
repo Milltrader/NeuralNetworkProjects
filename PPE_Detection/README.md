@@ -23,7 +23,7 @@ Here is the Yolo Review.
 
   ## Result
 
-[Watch the PPE Video Detector demo ▶️](https://github.com/Milltrader/NeuralNetworkProjects/blob/main/PPE_Detection/Construction%20Site%201%20-%20Stock%20Footage%20Collection%20%5BCtLy8PXiL58%5D.mp4)
+[Watch the PPE Video Detector demo ▶️](https://github.com/Milltrader/NeuralNetworkProjects/blob/main/PPE_Detection/runs/detect/predict/Construction%20Site%201%20-%20Stock%20Footage%20Collection%20%5BCtLy8PXiL58%5D.avi)
 
 
 ## Quick start
