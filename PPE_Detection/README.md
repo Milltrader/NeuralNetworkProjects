@@ -3,7 +3,7 @@
 This folder contains a small project experimenting with a YOLOv8 model for detecting personal protective equipment on construction workers.
 Here is the Yolo Review.
 
-![YOLO Diagram](PPE_Detection/Resources/yolo_diagram.png)
+![YOLO Diagram]([PPE_Detection/Resources/yolo_diagram.png](https://github.com/Milltrader/NeuralNetworkProjects/blob/main/PPE_Detection/Resources/yolo_diagram.png))
 
 ## Directory overview
 
